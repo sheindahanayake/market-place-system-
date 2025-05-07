@@ -28,5 +28,3 @@ A full-stack marketplace application built with **React** (frontend) and **Larav
 
 ---
 
-## 📁 Project Structure
-
