@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, #4caf50, #009688);
+}
+
+.text-white {
+    color: white;
+}
+
+.rounded-lg {
+    border-radius: 8px;
+}
+
+.shadow-lg {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:scale-105:hover {
+    transform: scale(1.05);
+}
+
+.transition {
+    transition: all 0.3s ease;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.space-y-4 > * + * {
+    margin-top: 1rem;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-opacity-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+}
